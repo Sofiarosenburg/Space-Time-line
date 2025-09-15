@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astronomy Timeline</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timeline">
+     <h1 class="title">Journey Through Astronomy</h1>
+  <p class="subtitle">Click on a year to reveal the cosmic breakthrough </p>
+  <p class="subtitle">Try clicking on the astronaut!</p>
+    <div class="event left hidden" data-year="1609">
+  <div class="year">1609</div>
+  <div class="details">
+    <h3>Galileo’s Telescope</h3>
+    <p>Galileo Galilei was part of a small group of astronomers who turned telescopes towards the heavens. After hearing about the "Danish perspective glass" in 1609, Galileo constructed his own telescope and discovers Jupiter’s moons, revolutionizing astronomy.</p>
+    <img src="galileo.avif" alt="Galileo telescope">
+  </div>
+  <div class="quiz">
+    <p>Quiz: Which of Jupiter's moons did Galileo discover first?</p>
+    <button onclick="checkAnswer(this, true)">Io</button>
+    <button onclick="checkAnswer(this, false)">Europa</button>
+    <button onclick="checkAnswer(this, false)">Ganymede</button>
+    <p class="feedback"></p> 
+  </div>
+</div>
+
+<div class="event right hidden" data-year="1687">
+      <div class="year">1687</div>
+      <div class="details">
+        <h3>Newton’s Principia</h3>
+        <p>Isaac Newton publishes *Principia Mathematica*, describing the laws of motion and universal gravitation. The law of universal gravitation, which he also confirmed from such further phenomena as the tides and the orbits of comets, states that every particle of matter in the universe attracts every other particle with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between their centres.</p>
+        <img src="newton.png" alt="Newton">
+      </div>
+    <div class="quiz">
+      <p>Quiz: Newton's law of universal gravitation was first published in which year?</p>
+      <button onclick="checkAnswer(this, false)">1665</button>
+      <button onclick="checkAnswer(this, false)">1704</button>
+      <button onclick="checkAnswer(this, true)">1687</button>
+      <p class="feedback"></p>
+    </div>
+  </div>
+
+    <div class="event left hidden" data-year="1781">
+      <div class="year">1781</div>
+      <div class="details">
+        <h3>Discovery of Uranus</h3>
+        <p>Slightly before midnight on 13 March 1781, in his back garden in Bath, German-born musician and astronomer William Herschel saw a strange object in the eyepiece of his homemade telescope. The curio, which Herschel initially thought might be a comet, would go on to be confirmed as a seventh planet, encircling the Sun at twice the distance of Saturn. It was the first new planet found with a telescope.</p>
+        <img src="uranus.avif" alt="Uranus">
+      </div>
+    <div class="quiz">
+      <p>Quiz: Which instrument did William Herschel use to discover Uranus?</p>
+      <button onclick="checkAnswer(this, true)">Telescope</button>
+      <button onclick="checkAnswer(this, false)">Spectrometer</button>
+      <button onclick="checkAnswer(this, false)">Astrolabe</button>
+      <p class="feedback"></p>
+    </div>
+  </div>
+
+    <div class="event right hidden" data-year="1915">
+      <div class="year">1915</div>
+      <div class="details">
+        <h3>Einstein’s General Relativity</h3>
+        <p>Albert Einstein publishes his theory of General Relativity, explaining gravity as the curvature of space-time caused by mass and energy. Theo theory replaced Newton's view of gravity and predicted phenomena like light bending around massive objects, later confirmed in 1919.</p>
+        <img src="relativity.png" alt="Einstein">
+      </div>
+    <div class="quiz">
+      <p>Quiz: Which phenomenon did Einstein predict that was confirmed during the 1919 solar eclipse?</p>
+      <button onclick="checkAnswer(this, false)">Planetary precession</button>
+      <button onclick="checkAnswer(this, true)">Light bending around the Sun</button>
+      <button onclick="checkAnswer(this, false)">Time dilation on Earth</button>
+      <p class="feedback"></p>
+    </div>
+  </div>
+
+    <div class="event left hidden" data-year="1929">
+      <div class="year">1929</div>
+      <div class="details">
+        <h3>Expanding Universe</h3>
+        <p>Edwin Hubble discovers that galaxies are moving away from us, showing that the universe is expanding. By observing the redshift of light from distant galaxies, he provided the first evidence for what would become the Big Bang theory.</p>
+        <img src="universe.webp" alt="Hubble telescope">
+      </div>
+    <div class="quiz">
+      <p>Quiz: Edwin Hubble determined galaxies are moving away using which law?</p>
+      <button onclick="checkAnswer(this, false)">Kepler's Law</button>
+      <button onclick="checkAnswer(this, true)">Hubble's Law</button>
+      <button onclick="checkAnswer(this, false)">Newton's Law</button>
+      <p class="feedback"></p>
+    </div>
+  </div>
+
+    <div class="event right hidden" data-year="1969">
+      <div class="year">1969</div>
+      <div class="details">
+        <h3>Apollo 11</h3>
+        <p>Neil Armstrong and Buzz Aldrin become the first humans to walk on the Moon during Apollo 11. Armstrong's worlds, "onde giant leap for manking", marked a defining moment in space exploration.</p>
+        <img src="neil.jpg" alt="Moon Landing">
+      </div>
+    <div class="quiz">
+      <p>Quiz: What was the name of the lunar module that landed on the Moon?</p>
+      <button onclick="checkAnswer(this, false)">Challenger</button>
+      <button onclick="checkAnswer(this, false)">Columbia</button>
+      <button onclick="checkAnswer(this, true)">Eagle</button>
+      <p class="feedback"></p>
+    </div>
+  </div>
+
+    <div class="event left hidden" data-year="1990">
+      <div class="year">1990</div>
+      <div class="details">
+        <h3>Hubble Space Telescope</h3>
+        <p>NASA launches the Hubble Space Telescope, giving humanity stunning images of space. Despite an initial mirror flaw later fixed, Hubble transformed astronomy with discoveries about galaxies, nubulae and the age of the universe.</p>
+        <img src="hubble.webp" alt="Hubble">
+      </div>
+    <div class="quiz">
+      <p>Quiz: What was the main issue with Hubble after launch that required a servicing mission?</p>
+      <button onclick="checkAnswer(this, false)">Solar panel failure</button>
+      <button onclick="checkAnswer(this, false)">Software malfunction</button>
+      <button onclick="checkAnswer(this, true)">Spherical aberration in the primary mirror</button>
+      <p class="feedback"></p>
+    </div>
+  </div>
+
+    <div class="event right hidden" data-year="2019">
+      <div class="year">2019</div>
+      <div class="details">
+        <h3>Black Hole Image</h3>
+        <p>The Event Horizon Telescope captures the first image of a black hole in galaxy M87. The picture showed a glowing ring around the black hole's shadow, confirming Einstein's predictions with direct visual proof.</p>
+        <img src="blackhole.avif" alt="Black Hole">
+      </div>
+   <div class="quiz">
+  <p>Quiz: The first black hole image captured by the Event Horizon Telescope was in which galaxy?</p>
+  <button onclick="checkAnswer(this, true)">M87</button>
+  <button onclick="checkAnswer(this, false)">Phoenix A</button>
+  <button onclick="checkAnswer(this, false)">TON 618</button>
+  <p class="feedback"></p>
+</div>
+</div>
+
+    <div class="event left hidden" data-year="2021">
+      <div class="year">2021</div>
+      <div class="details">
+        <h3>James Webb Telescope</h3>
+        <p>The James Webb Space Telescope is launched with powerful infrared vision. Its mission is to study the first galaxies, the borth of stars and distant exoplanets, pushing astronomy to new frontiers.</p>
+        <img src="jameswebb.webp" alt="JWST">
+      </div>
+  <div class="quiz">
+  <p>Quiz: What is the main advantage of the James Webb Space Telescope over Hubble?</p>
+  <button onclick="checkAnswer(this, true)">Observing in the infrared spectrum</button>
+  <button onclick="checkAnswer(this, false)">Observing in X-ray spectrum</button>
+  <button onclick="checkAnswer(this, false)">Larger field of view in visible light</button>
+  <p class="feedback"></p>
+</div>
+</div>
+  <div class="astronaut-container">
+    <img id="robot" src="astro.png" alt="Astronaut">
+    <div id="fala" class="speech-bubble"></div>
+  </div>
+
+  <audio id="correctSound" preload="auto">
+    <source src="correct.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="wrongSound" preload="auto">
+    <source src="wrong.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
