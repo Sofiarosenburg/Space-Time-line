@@ -6,8 +6,8 @@ This project explores the most important milestones in the history of astronomy,
 ## About
 The timeline highlights key moments in astronomy, such as:
 - Ancient observations of the night sky and the birth of astronomy  
-- Theories from Copernicus, Galileo, and Newton that changed science forever  
-- The discovery of galaxies, expanding our view of the cosmos  
+- Theories from Galileo and Newton that changed science forever  
+- The discovery of galaxies and planets, expanding our view of the cosmos  
 - Space exploration milestones, from satellites to human missions  
 - Modern discoveries that continue to push the boundaries of knowledge  
 
@@ -26,16 +26,19 @@ This repository is a living document. You can:
 
 ## Process
 - The website was built using **HTML, CSS, and JavaScript**, with focus on interactivity and design.  
-- I researched major astronomical events and discoveries, then organized them chronologically to create a clear learning path.  
+- I researched major astronomical events and discoveries, then organized them chronologically to create a clear learning path.
+- I used online tutorials to make the codes and used AI to fix some bugs on the project
 
 ## Challenges
 - Selecting which events to include while keeping the timeline concise.  
-- Designing an interface that is both visually appealing and easy to use.  
-- Making sure the timeline works smoothly across different devices.  
+- Make the astronaut to move and look like he is in the space.
+- Make the website interective with not too many options.
+- Making sure the timeline works smoothly.  
 
 ## Learnings
 - I learned how to present complex historical and scientific information in a simple, interactive way.  
-- I improved my design and coding skills by working with front-end tools.  
+- I improved my design and coding skills by working with front-end tools.
+- I learned how to deal with some problems during projects and to keep moving on.
 - I gained a deeper appreciation for how astronomy connects science, history, and human imagination.  
 
 [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
